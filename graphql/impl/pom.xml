@@ -8,9 +8,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>impl</artifactId>
-    
     <description>The main bundle for the OSGi enRoute ${impl-artifactId} example</description>
-    
     <dependencies>
         <dependency>
             <groupId>org.osgi.enroute</groupId>
@@ -27,8 +25,12 @@
             <artifactId>test-bundles</artifactId>
             <type>pom</type>
         </dependency>
+
+        <dependency>
+            <groupId>com.graphql-java-kickstart</groupId>
+            <artifactId>graphql-java-servlet</artifactId>
+        </dependency>
     </dependencies>
-    
     <build>
         <plugins>
             <plugin>

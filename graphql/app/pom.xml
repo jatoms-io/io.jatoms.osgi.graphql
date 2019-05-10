@@ -53,7 +53,7 @@
                 <artifactId>bnd-export-maven-plugin</artifactId>
                 <configuration>
                     <bndruns>
-                        <bndrun>app.bndrun</bndrun>
+                        <bndrun>debug.bndrun</bndrun>
                     </bndruns>
                 </configuration>
             </plugin>
